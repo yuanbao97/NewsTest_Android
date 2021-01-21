@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".avtivity.MainActivity">
+    tools:context=".avtivity.NewsContentActivity">
 
-    <Button
-        android:id="@+id/to_setting_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="to Setting"
-        android:textAllCaps="false" />
+    <fragment
+        android:id="@+id/news_content_fragment"
+        android:name="com.example.newstest.fragment.NewsContentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

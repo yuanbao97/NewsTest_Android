@@ -2,8 +2,13 @@ package com.example.newstest.response;
 
 public class News {
 
+    int id;
     String title;
     String content;
+
+    public int getId() {
+        return id;
+    }
 
     public String getTitle() {
         return title;
@@ -11,6 +16,10 @@ public class News {
 
     public String getContent() {
         return content;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setTitle(String title) {

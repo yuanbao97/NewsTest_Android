@@ -5,12 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".fragment.NewsTitleFragment">
 
-    <Button
-        android:id="@+id/to_news_content_activity_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="toNewsContent"
-        android:textAllCaps="false"
-        android:layout_gravity="center"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/news_title_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </FrameLayout>

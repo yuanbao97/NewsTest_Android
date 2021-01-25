@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 
 import com.example.newstest.R;
-import com.example.newstest.response.News;
 
 public class NewsContentFragment extends Fragment {
 

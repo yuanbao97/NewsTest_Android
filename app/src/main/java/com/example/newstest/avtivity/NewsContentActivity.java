@@ -1,12 +1,11 @@
 package com.example.newstest.avtivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.newstest.R;
 import com.example.newstest.fragment.NewsContentFragment;
-import com.example.newstest.response.News;
 
 public class NewsContentActivity extends AppCompatActivity {
 
